@@ -145,6 +145,7 @@
   ![Jenkins](https://github.com/Meiliger/Jenkins/blob/main/Data/9%20Agent%20scripted%20job/Output.png)
   
   *Pipeline script:*
+```
   pipeline {
     agent {
         label 'Windows_Node'
@@ -177,7 +178,7 @@
         }
     }
 }
-
+```
 </details>
 
 ***
@@ -252,23 +253,23 @@
 
 *14. Jenkins CLI*
 
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i` - display my credential and permissions
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ create-job First_job` - create the "First_job" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ build First_job` - build the "First_job" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ create-view MyView` - create the "NewView" view
-`$  java -jar jenkins-cli.jar -s http://localhost:8080/ set-build-description First_job 1 sometext` - set the "sometext" description of the first "First_job" build.
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ add-job-to-view MyView Second_Job ...` - add the "Second_Job" job to the "MyView" view.
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ copy-job First_job First_job_copy` - copy the "First_job" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs MyView` - display all jobs in the "MyView" view
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job NAME` - disable the "First_job_copy" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job NAME` - enable the "First_job_copy" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-builds First_job 1` - delete the "First_job" job first build
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ remove-job-from-view MyView First_job ...`remove the "First_job" job from the "MyView" view
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job First_job_copy ...` - delete the "First_job_copy" job
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-view MyView ...` - delete the "MyView" view
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ restart` - restart Jenkins
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart` - safe restart Jenkins
-`$ java -jar jenkins-cli.jar -s http://localhost:8080/ safe-shutdown` - put Jenkins into the quiet mode, wait for existing builds to be completed, and then shut down Jenkins. 
+1. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i` - display my credential and permissions
+2. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ create-job First_job` - create the "First_job" job
+3. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ build First_job` - build the "First_job" job
+4. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ create-view MyView` - create the "NewView" view
+5. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ set-build-description First_job 1 sometext` - set the "sometext" description of the first "First_job" build.
+6. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ add-job-to-view MyView Second_Job ...` - add the "Second_Job" job to the "MyView" view.
+7. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ copy-job First_job First_job_copy` - copy the "First_job" job
+8. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs MyView` - display all jobs in the "MyView" view
+9. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job NAME` - disable the "First_job_copy" job
+10. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job NAME` - enable the "First_job_copy" job
+11. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-builds First_job 1` - delete the "First_job" job first build
+12. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ remove-job-from-view MyView First_job ...`remove the "First_job" job from the "MyView" view
+13. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job First_job_copy ...` - delete the "First_job_copy" job
+14. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ delete-view MyView ...` - delete the "MyView" view
+15. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ restart` - restart Jenkins
+16. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart` - safe restart Jenkins
+17. `$ java -jar jenkins-cli.jar -s http://localhost:8080/ safe-shutdown` - put Jenkins into the quiet mode, wait for existing builds to be completed, and then shut down Jenkins. 
 
 ***
 
