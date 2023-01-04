@@ -1,6 +1,6 @@
 # Jenkins
 
-* Each test number corresponds to a folder number in Data. All data is saved in the appropriate folder*
+*Each test number corresponds to a folder number in Data. All data is saved in the appropriate folder*
 
 ***
 
@@ -41,7 +41,7 @@
   
   ![Jenkins](https://github.com/Meiliger/Jenkins/blob/main/Data/3%20Job%20triggers/Second%20job.png)
   
-  [![Jenkins](https://github.com/Meiliger/JMeter/blob/main/Preview/video.png)](https://drive.google.com/file/d/1rmcNToZZjplnCUBxZ2WQk1Pvo0WaXFbx/view?usp=share_link)
+  [![Jenkins](https://github.com/Meiliger/Jenkins/blob/main/Data/intro%201.png)](https://drive.google.com/file/d/1rmcNToZZjplnCUBxZ2WQk1Pvo0WaXFbx/view?usp=share_link)
 </details>
 
 *** 
@@ -287,7 +287,7 @@
   
   ![Jenkins](https://github.com/Meiliger/Jenkins/blob/main/Data/15%20GitHub%20-%20WebHook/Console%20Output%202.png)
   
-  [![Jenkins](https://github.com/Meiliger/JMeter/blob/main/Preview/video.png)](https://drive.google.com/file/d/19_EBb4kPmnk1ecizMAg69Zrc3A9UD-0k/view?usp=share_link)
+  [![Jenkins](https://github.com/Meiliger/Jenkins/blob/main/Data/intro%202.png)](https://drive.google.com/file/d/19_EBb4kPmnk1ecizMAg69Zrc3A9UD-0k/view?usp=share_link)
 </details>
 
 
